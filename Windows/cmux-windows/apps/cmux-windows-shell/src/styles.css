@@ -1,0 +1,153 @@
+@import "tailwindcss";
+@source ".";
+@source "../../../packages/gui-workspace-react/src";
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  min-width: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.drag-region {
+  -webkit-app-region: drag;
+}
+
+.no-drag {
+  -webkit-app-region: no-drag;
+}
+
+@theme {
+  --color-cyber-bg: #15181C;
+  --color-cyber-panel: #1E1E1E;
+  --color-cyber-border: #2A2F36;
+  --color-cyber-border-highlight: #3F4652;
+  --color-cyber-accent: #85E071;
+  --color-cyber-alert: #FF3366;
+  --color-cyber-success: #85E071;
+  --color-cyber-text: #FFFFFF;
+  --color-cyber-text-dim: #A0ABC0;
+
+  --font-rajdhani: "Rajdhani", sans-serif;
+  --font-jetbrains: "JetBrains Mono", monospace;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-cyber-bg);
+    color: var(--color-cyber-text);
+    font-family: var(--font-jetbrains);
+    /* Subtle mechanical grid pattern */
+    background-image:
+      linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+    background-size: 32px 32px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-rajdhani);
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+}
+
+@layer utilities {
+  .cyber-panel {
+    background-color: var(--color-cyber-panel);
+    border: 1px solid var(--color-cyber-border);
+    border-radius: 4px;
+  }
+
+  .cyber-panel-hover {
+    transition: border-color 0.2s;
+  }
+
+  .cyber-panel-hover:hover {
+    border-color: var(--color-cyber-accent);
+  }
+
+  .cyber-button {
+    font-family: var(--font-rajdhani);
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--color-cyber-border);
+    background-color: var(--color-cyber-panel);
+    color: var(--color-cyber-text);
+    border-radius: 2px;
+    transition: all 0.1s ease-out;
+  }
+
+  .cyber-button:hover:not(:disabled) {
+    border-color: var(--color-cyber-accent);
+    color: var(--color-cyber-accent);
+  }
+
+  .cyber-button-primary {
+    background-color: var(--color-cyber-accent);
+    color: var(--color-cyber-bg);
+    border-color: var(--color-cyber-accent);
+  }
+
+  .cyber-button-primary:hover:not(:disabled) {
+    background-color: transparent;
+    color: var(--color-cyber-accent);
+    border-color: var(--color-cyber-accent);
+  }
+
+  .cyber-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  .cyber-input {
+    background-color: var(--color-cyber-bg);
+    border: 1px solid var(--color-cyber-border);
+    color: var(--color-cyber-text);
+    font-family: var(--font-jetbrains);
+    transition: all 0.2s ease;
+    border-radius: 2px;
+  }
+
+  .cyber-input:focus {
+    outline: none;
+    border-color: var(--color-cyber-accent);
+    box-shadow: 0 0 0 1px var(--color-cyber-accent);
+  }
+
+  .cyber-glow-text {
+    color: var(--color-cyber-accent);
+    font-weight: 700;
+  }
+
+  .cyber-scrollbar::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  .cyber-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .cyber-scrollbar::-webkit-scrollbar-thumb {
+    background-color: var(--color-cyber-border);
+    border-radius: 4px;
+  }
+
+  .cyber-scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: var(--color-cyber-border-highlight);
+  }
+}

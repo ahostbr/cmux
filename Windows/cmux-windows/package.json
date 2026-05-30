@@ -1,0 +1,71 @@
+{
+  "name": "cmux-windows",
+  "private": true,
+  "version": "0.1.0",
+  "description": "cmux Windows desktop workspace app",
+  "type": "module",
+  "main": "./out/main/index.js",
+  "bin": {
+    "cmux": "./bin/cmux-windows.mjs",
+    "cmux-windows": "./bin/cmux-windows.mjs"
+  },
+  "author": "Ryan Devlin",
+  "packageManager": "pnpm@10.0.0",
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "electron-vite build",
+    "preview": "electron-vite preview",
+    "start": "electron .",
+    "dev:web": "pnpm --filter @cmux/windows-shell dev",
+    "build:web": "pnpm --filter @cmux/windows-shell build",
+    "preview:web": "pnpm --filter @cmux/windows-shell preview",
+    "cli": "node ./bin/cmux-windows.mjs",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "smoke:protocol": "node ./scripts/smoke-protocol.mjs",
+    "dist": "pnpm run build && electron-builder --win -c.win.signAndEditExecutable=false",
+    "dist:dir": "pnpm run build && electron-builder --win --dir"
+  },
+  "dependencies": {
+    "@electron-toolkit/utils": "^4.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.2.1",
+    "@types/node": "^22.15.21",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "@vitejs/plugin-react": "^5.1.4",
+    "electron": "^37.2.0",
+    "electron-builder": "^26.0.12",
+    "electron-vite": "^3.1.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "tailwindcss": "^4.2.1",
+    "typescript": "^5.9.3",
+    "vite": "^6.3.6"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "electron",
+      "esbuild"
+    ]
+  },
+  "build": {
+    "appId": "ai.manaflow.cmux.windows",
+    "productName": "cmux Windows",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "out/**/*"
+    ],
+    "win": {
+      "icon": "resources/icon.ico",
+      "target": "nsis"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  }
+}

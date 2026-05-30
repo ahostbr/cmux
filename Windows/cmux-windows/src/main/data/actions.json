@@ -1,0 +1,1185 @@
+[
+    {
+        "id":  "close_pane",
+        "name":  "Close Pane",
+        "category":  "pane",
+        "method":  "shortcut",
+        "shortcut":  "^+w",
+        "palette_name":  null,
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  true,
+        "description":  "Close the active pane"
+    },
+    {
+        "id":  "close_other_panes",
+        "name":  "Close Other Panes",
+        "category":  "pane",
+        "method":  "palette",
+        "shortcut":  null,
+        "palette_name":  "Close other panes",
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  true,
+        "description":  ""
+    },
+    {
+        "id":  "split_right",
+        "name":  "Split Pane Right",
+        "category":  "pane",
+        "method":  "shortcut",
+        "shortcut":  "%+{=}",
+        "palette_name":  null,
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  true,
+        "description":  "Split active pane to the right"
+    },
+    {
+        "id":  "split_down",
+        "name":  "Split Pane Down",
+        "category":  "pane",
+        "method":  "shortcut",
+        "shortcut":  "%+{-}",
+        "palette_name":  null,
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  true,
+        "description":  "Split active pane downward"
+    },
+    {
+        "id":  "split_left",
+        "name":  "Split Pane Left",
+        "category":  "pane",
+        "method":  "palette",
+        "shortcut":  null,
+        "palette_name":  "Split pane left",
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  true,
+        "description":  ""
+    },
+    {
+        "id":  "split_up",
+        "name":  "Split Pane Up",
+        "category":  "pane",
+        "method":  "palette",
+        "shortcut":  null,
+        "palette_name":  "Split pane up",
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  true,
+        "description":  ""
+    },
+    {
+        "id":  "duplicate_pane_auto",
+        "name":  "Duplicate Pane",
+        "category":  "pane",
+        "method":  "palette",
+        "shortcut":  null,
+        "palette_name":  "Duplicate pane",
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  true,
+        "description":  ""
+    },
+    {
+        "id":  "toggle_pane_zoom",
+        "name":  "Toggle Pane Zoom",
+        "category":  "pane",
+        "method":  "palette",
+        "shortcut":  null,
+        "palette_name":  "Toggle pane zoom",
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "toggle_split_orientation",
+        "name":  "Toggle Split Orientation",
+        "category":  "pane",
+        "method":  "palette",
+        "shortcut":  null,
+        "palette_name":  "Toggle split orientation",
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "resize_pane_up",
+        "name":  "Resize Pane Up",
+        "category":  "pane",
+        "method":  "shortcut",
+        "shortcut":  "%+{UP}",
+        "palette_name":  null,
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "resize_pane_down",
+        "name":  "Resize Pane Down",
+        "category":  "pane",
+        "method":  "shortcut",
+        "shortcut":  "%+{DOWN}",
+        "palette_name":  null,
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "resize_pane_left",
+        "name":  "Resize Pane Left",
+        "category":  "pane",
+        "method":  "shortcut",
+        "shortcut":  "%+{LEFT}",
+        "palette_name":  null,
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "resize_pane_right",
+        "name":  "Resize Pane Right",
+        "category":  "pane",
+        "method":  "shortcut",
+        "shortcut":  "%+{RIGHT}",
+        "palette_name":  null,
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "swap_pane_up",
+        "name":  "Swap Pane Up",
+        "category":  "pane",
+        "method":  "palette",
+        "shortcut":  null,
+        "palette_name":  "Swap pane up",
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "swap_pane_down",
+        "name":  "Swap Pane Down",
+        "category":  "pane",
+        "method":  "palette",
+        "shortcut":  null,
+        "palette_name":  "Swap pane down",
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "swap_pane_left",
+        "name":  "Swap Pane Left",
+        "category":  "pane",
+        "method":  "palette",
+        "shortcut":  null,
+        "palette_name":  "Swap pane left",
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "swap_pane_right",
+        "name":  "Swap Pane Right",
+        "category":  "pane",
+        "method":  "palette",
+        "shortcut":  null,
+        "palette_name":  "Swap pane right",
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "move_pane_to_tab",
+        "name":  "Move Pane to Tab",
+        "category":  "pane",
+        "method":  "palette",
+        "shortcut":  null,
+        "palette_name":  "Move pane to tab",
+        "cli_command":  null,
+        "args":  [
+                     {
+                         "name":  "tab_index",
+                         "label":  "Tab Index",
+                         "type":  "int",
+                         "required":  true,
+                         "default":  null,
+                         "choices":  null
+                     }
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "move_pane_to_new_window",
+        "name":  "Move Pane to New Window",
+        "category":  "pane",
+        "method":  "palette",
+        "shortcut":  null,
+        "palette_name":  "Move pane to new window",
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  true,
+        "description":  ""
+    },
+    {
+        "id":  "toggle_read_only",
+        "name":  "Toggle Read-Only",
+        "category":  "pane",
+        "method":  "palette",
+        "shortcut":  null,
+        "palette_name":  "Toggle read-only mode",
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "toggle_broadcast_input",
+        "name":  "Toggle Broadcast Input",
+        "category":  "pane",
+        "method":  "palette",
+        "shortcut":  null,
+        "palette_name":  "Toggle broadcast input",
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "restart_connection",
+        "name":  "Restart Connection",
+        "category":  "pane",
+        "method":  "palette",
+        "shortcut":  null,
+        "palette_name":  "Restart connection",
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "new_tab",
+        "name":  "New Tab",
+        "category":  "tab",
+        "method":  "shortcut",
+        "shortcut":  "^+t",
+        "palette_name":  null,
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  true,
+        "description":  "Open a new default tab"
+    },
+    {
+        "id":  "new_tab_profile",
+        "name":  "New Tab with Profile",
+        "category":  "tab",
+        "method":  "cli",
+        "shortcut":  null,
+        "palette_name":  null,
+        "cli_command":  "new-tab",
+        "args":  [
+
+                 ],
+        "changes_structure":  true,
+        "description":  ""
+    },
+    {
+        "id":  "duplicate_tab",
+        "name":  "Duplicate Tab",
+        "category":  "tab",
+        "method":  "shortcut",
+        "shortcut":  "^+d",
+        "palette_name":  null,
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  true,
+        "description":  ""
+    },
+    {
+        "id":  "close_tab",
+        "name":  "Close Tab",
+        "category":  "tab",
+        "method":  "palette",
+        "shortcut":  null,
+        "palette_name":  "Close tab",
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  true,
+        "description":  ""
+    },
+    {
+        "id":  "close_other_tabs",
+        "name":  "Close Other Tabs",
+        "category":  "tab",
+        "method":  "palette",
+        "shortcut":  null,
+        "palette_name":  "Close other tabs",
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  true,
+        "description":  ""
+    },
+    {
+        "id":  "close_tabs_after",
+        "name":  "Close Tabs After",
+        "category":  "tab",
+        "method":  "palette",
+        "shortcut":  null,
+        "palette_name":  "Close tabs after",
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  true,
+        "description":  ""
+    },
+    {
+        "id":  "next_tab",
+        "name":  "Next Tab",
+        "category":  "tab",
+        "method":  "shortcut",
+        "shortcut":  "^{TAB}",
+        "palette_name":  null,
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "prev_tab",
+        "name":  "Previous Tab",
+        "category":  "tab",
+        "method":  "shortcut",
+        "shortcut":  "^+{TAB}",
+        "palette_name":  null,
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "move_tab_forward",
+        "name":  "Move Tab Forward",
+        "category":  "tab",
+        "method":  "palette",
+        "shortcut":  null,
+        "palette_name":  "Move tab forward",
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "move_tab_backward",
+        "name":  "Move Tab Backward",
+        "category":  "tab",
+        "method":  "palette",
+        "shortcut":  null,
+        "palette_name":  "Move tab backward",
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "rename_tab",
+        "name":  "Rename Tab",
+        "category":  "tab",
+        "method":  "palette",
+        "shortcut":  null,
+        "palette_name":  "Rename tab",
+        "cli_command":  null,
+        "args":  [
+                     {
+                         "name":  "title",
+                         "label":  "New Title",
+                         "type":  "string",
+                         "required":  true,
+                         "default":  null,
+                         "choices":  null
+                     }
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "restore_last_closed",
+        "name":  "Restore Last Closed",
+        "category":  "tab",
+        "method":  "palette",
+        "shortcut":  null,
+        "palette_name":  "Restore last closed tab",
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  true,
+        "description":  ""
+    },
+    {
+        "id":  "move_focus_up",
+        "name":  "Move Focus Up",
+        "category":  "focus",
+        "method":  "shortcut",
+        "shortcut":  "%{UP}",
+        "palette_name":  null,
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "move_focus_down",
+        "name":  "Move Focus Down",
+        "category":  "focus",
+        "method":  "shortcut",
+        "shortcut":  "%{DOWN}",
+        "palette_name":  null,
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "move_focus_left",
+        "name":  "Move Focus Left",
+        "category":  "focus",
+        "method":  "shortcut",
+        "shortcut":  "%{LEFT}",
+        "palette_name":  null,
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "move_focus_right",
+        "name":  "Move Focus Right",
+        "category":  "focus",
+        "method":  "shortcut",
+        "shortcut":  "%{RIGHT}",
+        "palette_name":  null,
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "move_focus_first",
+        "name":  "First Pane",
+        "category":  "focus",
+        "method":  "palette",
+        "shortcut":  null,
+        "palette_name":  "Move focus to first pane",
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "move_focus_parent",
+        "name":  "Parent Pane",
+        "category":  "focus",
+        "method":  "palette",
+        "shortcut":  null,
+        "palette_name":  "Move focus to parent pane",
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "move_focus_child",
+        "name":  "Child Pane",
+        "category":  "focus",
+        "method":  "palette",
+        "shortcut":  null,
+        "palette_name":  "Move focus to child pane",
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "move_focus_next_in_order",
+        "name":  "Next Pane in Order",
+        "category":  "focus",
+        "method":  "palette",
+        "shortcut":  null,
+        "palette_name":  "Move focus to next pane",
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "move_focus_prev_in_order",
+        "name":  "Previous Pane in Order",
+        "category":  "focus",
+        "method":  "palette",
+        "shortcut":  null,
+        "palette_name":  "Move focus to previous pane",
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "move_focus_last_used",
+        "name":  "Last Used Pane",
+        "category":  "focus",
+        "method":  "shortcut",
+        "shortcut":  "^%{LEFT}",
+        "palette_name":  null,
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "new_window",
+        "name":  "New Window",
+        "category":  "window",
+        "method":  "shortcut",
+        "shortcut":  "^+n",
+        "palette_name":  null,
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  true,
+        "description":  ""
+    },
+    {
+        "id":  "toggle_fullscreen",
+        "name":  "Toggle Full Screen",
+        "category":  "window",
+        "method":  "shortcut",
+        "shortcut":  "{F11}",
+        "palette_name":  null,
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "toggle_always_on_top",
+        "name":  "Toggle Always on Top",
+        "category":  "window",
+        "method":  "palette",
+        "shortcut":  null,
+        "palette_name":  "Toggle always on top",
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "minimize_to_tray",
+        "name":  "Minimize to Tray",
+        "category":  "window",
+        "method":  "palette",
+        "shortcut":  null,
+        "palette_name":  "Minimize to tray",
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "quit",
+        "name":  "Quit",
+        "category":  "window",
+        "method":  "shortcut",
+        "shortcut":  "%{F4}",
+        "palette_name":  null,
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  true,
+        "description":  ""
+    },
+    {
+        "id":  "identify_window",
+        "name":  "Identify Window",
+        "category":  "window",
+        "method":  "palette",
+        "shortcut":  null,
+        "palette_name":  "Identify window",
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "toggle_focus_mode",
+        "name":  "Toggle Focus Mode",
+        "category":  "window",
+        "method":  "palette",
+        "shortcut":  null,
+        "palette_name":  "Toggle focus mode",
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "open_settings_ui",
+        "name":  "Open Settings",
+        "category":  "window",
+        "method":  "shortcut",
+        "shortcut":  "^+{,}",
+        "palette_name":  null,
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "copy",
+        "name":  "Copy",
+        "category":  "clipboard",
+        "method":  "shortcut",
+        "shortcut":  "^+c",
+        "palette_name":  null,
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "paste",
+        "name":  "Paste",
+        "category":  "clipboard",
+        "method":  "shortcut",
+        "shortcut":  "^+v",
+        "palette_name":  null,
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "copy_as_single_line",
+        "name":  "Copy as Single Line",
+        "category":  "clipboard",
+        "method":  "palette",
+        "shortcut":  null,
+        "palette_name":  "Copy text as a single line",
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "scroll_up",
+        "name":  "Scroll Up",
+        "category":  "scroll",
+        "method":  "shortcut",
+        "shortcut":  "^+{UP}",
+        "palette_name":  null,
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "scroll_down",
+        "name":  "Scroll Down",
+        "category":  "scroll",
+        "method":  "shortcut",
+        "shortcut":  "^+{DOWN}",
+        "palette_name":  null,
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "scroll_page_up",
+        "name":  "Scroll Page Up",
+        "category":  "scroll",
+        "method":  "shortcut",
+        "shortcut":  "^+{PGUP}",
+        "palette_name":  null,
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "scroll_page_down",
+        "name":  "Scroll Page Down",
+        "category":  "scroll",
+        "method":  "shortcut",
+        "shortcut":  "^+{PGDN}",
+        "palette_name":  null,
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "scroll_to_top",
+        "name":  "Scroll to Top",
+        "category":  "scroll",
+        "method":  "palette",
+        "shortcut":  null,
+        "palette_name":  "Scroll to top",
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "scroll_to_bottom",
+        "name":  "Scroll to Bottom",
+        "category":  "scroll",
+        "method":  "palette",
+        "shortcut":  null,
+        "palette_name":  "Scroll to bottom",
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "font_size_increase",
+        "name":  "Increase Font Size",
+        "category":  "font",
+        "method":  "shortcut",
+        "shortcut":  "^{=}",
+        "palette_name":  null,
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "font_size_decrease",
+        "name":  "Decrease Font Size",
+        "category":  "font",
+        "method":  "shortcut",
+        "shortcut":  "^{-}",
+        "palette_name":  null,
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "font_size_reset",
+        "name":  "Reset Font Size",
+        "category":  "font",
+        "method":  "shortcut",
+        "shortcut":  "^0",
+        "palette_name":  null,
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "select_all",
+        "name":  "Select All",
+        "category":  "selection",
+        "method":  "palette",
+        "shortcut":  null,
+        "palette_name":  "Select all",
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "toggle_mark_mode",
+        "name":  "Toggle Mark Mode",
+        "category":  "selection",
+        "method":  "shortcut",
+        "shortcut":  "^+m",
+        "palette_name":  null,
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "select_output",
+        "name":  "Select Command Output",
+        "category":  "selection",
+        "method":  "palette",
+        "shortcut":  null,
+        "palette_name":  "Select command output",
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "search",
+        "name":  "Find",
+        "category":  "selection",
+        "method":  "shortcut",
+        "shortcut":  "^+f",
+        "palette_name":  null,
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "search_web",
+        "name":  "Search Web",
+        "category":  "selection",
+        "method":  "palette",
+        "shortcut":  null,
+        "palette_name":  "Search the web",
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "toggle_retro_effect",
+        "name":  "Toggle Retro Effect",
+        "category":  "appearance",
+        "method":  "palette",
+        "shortcut":  null,
+        "palette_name":  "Toggle retro terminal effects",
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "set_color_scheme",
+        "name":  "Set Color Scheme",
+        "category":  "appearance",
+        "method":  "palette",
+        "shortcut":  null,
+        "palette_name":  "Set color scheme",
+        "cli_command":  null,
+        "args":  [
+                     {
+                         "name":  "scheme",
+                         "label":  "Scheme Name",
+                         "type":  "string",
+                         "required":  true,
+                         "default":  null,
+                         "choices":  null
+                     }
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "set_tab_color",
+        "name":  "Set Tab Color",
+        "category":  "appearance",
+        "method":  "palette",
+        "shortcut":  null,
+        "palette_name":  "Set tab color",
+        "cli_command":  null,
+        "args":  [
+                     {
+                         "name":  "color",
+                         "label":  "Color (#hex)",
+                         "type":  "string",
+                         "required":  true,
+                         "default":  null,
+                         "choices":  null
+                     }
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "reset_tab_color",
+        "name":  "Reset Tab Color",
+        "category":  "appearance",
+        "method":  "palette",
+        "shortcut":  null,
+        "palette_name":  "Reset tab color",
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "toggle_pixel_shaders",
+        "name":  "Toggle Pixel Shaders",
+        "category":  "appearance",
+        "method":  "palette",
+        "shortcut":  null,
+        "palette_name":  "Toggle pixel shader effects",
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "toggle_opacity",
+        "name":  "Toggle Window Opacity",
+        "category":  "appearance",
+        "method":  "palette",
+        "shortcut":  null,
+        "palette_name":  "Toggle window opacity",
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "open_command_palette",
+        "name":  "Open Command Palette",
+        "category":  "advanced",
+        "method":  "shortcut",
+        "shortcut":  "^+p",
+        "palette_name":  null,
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  "Open WT\u0027s built-in command palette"
+    },
+    {
+        "id":  "open_settings_json",
+        "name":  "Open Settings JSON",
+        "category":  "advanced",
+        "method":  "palette",
+        "shortcut":  null,
+        "palette_name":  "Open settings file",
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "open_defaults_json",
+        "name":  "Open Default Settings",
+        "category":  "advanced",
+        "method":  "palette",
+        "shortcut":  null,
+        "palette_name":  "Open default settings",
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "toggle_command_line_mode",
+        "name":  "Command Line Mode",
+        "category":  "advanced",
+        "method":  "palette",
+        "shortcut":  null,
+        "palette_name":  "Toggle command line mode",
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "send_input_text",
+        "name":  "Send Input Text",
+        "category":  "advanced",
+        "method":  "shortcut",
+        "shortcut":  null,
+        "palette_name":  null,
+        "cli_command":  null,
+        "args":  [
+                     {
+                         "name":  "text",
+                         "label":  "Text to send",
+                         "type":  "string",
+                         "required":  true,
+                         "default":  null,
+                         "choices":  null
+                     }
+                 ],
+        "changes_structure":  false,
+        "description":  "Send arbitrary text to the terminal"
+    },
+    {
+        "id":  "clear_buffer",
+        "name":  "Clear Buffer",
+        "category":  "advanced",
+        "method":  "palette",
+        "shortcut":  null,
+        "palette_name":  "Clear buffer",
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    },
+    {
+        "id":  "export_buffer",
+        "name":  "Export Buffer",
+        "category":  "advanced",
+        "method":  "palette",
+        "shortcut":  null,
+        "palette_name":  "Export text",
+        "cli_command":  null,
+        "args":  [
+
+                 ],
+        "changes_structure":  false,
+        "description":  ""
+    }
+]

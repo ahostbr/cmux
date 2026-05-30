@@ -1,6 +1,13 @@
 {
   "scripts": {
-    "feed-tui": "bun Resources/feed-tui/index.ts"
+    "feed-tui": "bun Resources/feed-tui/index.ts",
+    "windows:dev": "pnpm --dir Windows/cmux-windows dev",
+    "windows:cli": "pnpm --dir Windows/cmux-windows cli",
+    "windows:typecheck": "pnpm --dir Windows/cmux-windows typecheck",
+    "windows:build": "pnpm --dir Windows/cmux-windows build",
+    "windows:smoke": "pnpm --dir Windows/cmux-windows smoke:protocol",
+    "windows:dist": "pnpm --dir Windows/cmux-windows dist",
+    "windows:dist:dir": "pnpm --dir Windows/cmux-windows dist:dir"
   },
   "dependencies": {
     "@opentui/core": "^0.1.106",

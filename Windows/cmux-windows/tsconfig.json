@@ -1,0 +1,36 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "types": ["node"],
+    "baseUrl": ".",
+    "paths": {
+      "@gui/workspace-core": [
+        "packages/gui-workspace-core/src/index.ts"
+      ],
+      "@gui/workspace-react": [
+        "packages/gui-workspace-react/src/index.ts"
+      ],
+      "@gui/native-views": [
+        "packages/gui-native-views/src/index.ts"
+      ],
+      "@shared/*": [
+        "src/shared/*"
+      ],
+      "@app/*": [
+        "apps/cmux-windows-shell/src/*"
+      ]
+    }
+  },
+  "include": [
+    "apps/**/*.ts",
+    "apps/**/*.tsx",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.d.ts",
+    "packages/**/*.ts",
+    "packages/**/*.tsx",
+    "electron.vite.config.ts"
+  ]
+}
